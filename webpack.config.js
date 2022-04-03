@@ -22,6 +22,7 @@ module.exports = {
             resolve(__dirname, './modules')
         ]
     },
+    devtool: 'source-map',
     module: {
         // 处理相关文件
         rules: [{

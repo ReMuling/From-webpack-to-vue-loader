@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <img v-if="isShowImg1" src="./rk.png" class="img" />
-      <img v-show="isShowImg2" src="./mt.png" class="img" />
+      <img v-if="isShowImg1" src="../public/mt.png" class="img" />
+      <img v-show="isShowImg2" src="../public/rk.png" class="img" />
     </div>
     <button @click="showImg1">显示rk</button>
     <button @click="showImg2">显示mt</button>
